@@ -2,10 +2,12 @@
   "name": "PrintToPDF",
   "projectId": "13b10082-761a-4adc-aecc-8490e70756da",
   "description": "print to pdf via powershell script",
-  "main": "Powershell - Print to PDF.xaml",
+  "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.0-preview]",
     "UiPath.System.Activities": "[23.12.0-preview]",
-    "UiPath.UIAutomation.Activities": "[23.12.0-preview]"
+    "UiPath.UIAutomation.Activities": "[23.12.0-preview]",
+    "UiPath.Word.Activities": "[1.19.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -47,8 +49,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Powershell - Print to PDF.xaml",
-      "uniqueId": "7e4450bf-c1cb-42df-be00-0b8f12be5299",
+      "filePath": "PrintToPDF.cs",
+      "uniqueId": "5c3d3c8e-2592-401e-85a1-b7177b3694fd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5439e261-d04b-409b-9479-5924e6c5fe63",
       "input": [],
       "output": []
     }
